@@ -8,12 +8,12 @@ def name():
 def noob():
     print "Noob Life!"
 def update():
-    noob = raw_input("Är du noob? (y/n) ")
+    noob = raw_input("Är du noob? (y/n): ")
     if noob.lower == "y":
-        print "noob"
+        print "Noob!"
         noob()
     else:
-        print "super noob!"
+        print "Supernoob!"
         noob()
 name()
 update()
