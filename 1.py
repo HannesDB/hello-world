@@ -9,7 +9,7 @@ def noob():
     print "Noob Life!"
 def update():
     noob = raw_input("Är du noob? (y/n) ")
-    if noob == "y":
+    if noob.lower == "y":
         print "noob"
         noob()
     else:
@@ -17,3 +17,5 @@ def update():
         noob()
 name()
 update()
+
+"""BLAARGHH"""
