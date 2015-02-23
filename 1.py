@@ -5,4 +5,7 @@ def name():
     else:
         print ur_name + ", your name is long and difficult!"
 
+def noob():
+    print "Noob Life!"
 name()
+noob()
