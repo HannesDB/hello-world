@@ -7,5 +7,13 @@ def name():
 
 def noob():
     print "Noob Life!"
+def update():
+    noob = raw_input("Är du noob? (y/n) ")
+    if noob == "y":
+        print "noob"
+        noob()
+    else:
+        print "super noob!"
+        noob()
 name()
-noob()
+update()
